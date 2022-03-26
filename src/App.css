@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box !important;
+}
+
+html, body {
+  font-size: .8rem;
+}
+
+@media screen and (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+.search-icon {
+  display: none !important;
+}
+
+@media screen and (max-width: 479px) {
+  .search-icon {
+    display: inline-block !important;
+  }
+
+  .search-text {
+    display: none!important;
+  }
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/*position*/
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+/*display*/
+.d-flex {
+  display: flex;
+}
+
+/*align*/
+.d-inline-block {
+  display: inline-block;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.horizontal-center {
+  justify-content: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+/*margin*/
+.m-0 {
+  margin: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-3r {
+  margin-top: 3rem;
+}
+
+/*padding*/
+
+.pr-2r {
+  padding-right: 2rem;
+}
+
+.pt-2r {
+  padding-top: 2rem;
+}
+
+/*width*/
+
+.w-40 {
+  width: 40%;
+}
+
+/*font*/
+.fw-b {
+  font-weight: bold;
+}

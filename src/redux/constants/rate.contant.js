@@ -1,0 +1,4 @@
+export const RATE_ACTION = {
+  CREATE_RATE: 'CREATE_RATE',
+  GET_RATE_LIST: 'GET_RATE_LIST',
+};

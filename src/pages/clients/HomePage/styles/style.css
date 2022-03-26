@@ -1,0 +1,136 @@
+.ant-card-body {
+  padding: 10px !important;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.ant-menu-item, .ant-menu-submenu {
+  padding-left: 10px !important;
+  margin: 0 !important;
+}
+
+.ant-menu-submenu-title {
+  padding: 0 !important;
+}
+
+.ant-menu-submenu .ant-menu-item {
+  padding-left: 20px !important;
+}
+
+.ant-menu-vertical .ant-menu-item.hide-after::after,
+.ant-menu-vertical-left .ant-menu-item.hide-after::after,
+.ant-menu-vertical-right .ant-menu-item.hide-after::after,
+.ant-menu-inline .ant-menu-item.hide-after::after {
+  left: 0 !important;
+  right: unset !important;
+  border-right: 0 !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  left: 0 !important;
+  right: unset !important;
+}
+
+.ant-menu-item:hover {
+  background: #f5f5f5;
+}
+
+.ant-menu-submenu .ant-menu-item {
+  margin-left: -10px !important;
+}
+
+.ant-menu-item > svg.custom-icon-position {
+  position: absolute;
+  right: 5px;
+}
+
+.ant-menu-item > svg.custom-icon-profile {
+  margin-right: 10px;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after, .ant-menu-horizontal > .ant-menu-submenu::after {
+  width: 100%;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.ant-menu-item .ant-menu-item-icon + span {
+  margin-left: 0 !important;
+}
+
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
+  background-color: unset !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  background-color: #fff !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #c00 !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #c00 !important;
+}
+
+.ant-select-selector {
+  background-color: unset !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
+
+.ant-select-selection-item {
+  color: #666 !important;
+}
+
+.ant-card-meta-title {
+  white-space: unset !important;
+}
+
+.ant-card-meta-avatar {
+  padding-right: 6px !important;
+}
+
+.ant-anchor-ink {
+  display: none !important;
+}
+
+.ant-message {
+  top: 70px !important;
+}
+
+.add-cart-message {
+  margin-top: -8px;
+}
+
+.ant-modal-wrap {
+  overflow: hidden !important;
+}
